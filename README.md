@@ -1,7 +1,7 @@
-# Cactus with BootStrap 3 and Sass
+# Gene Observer
 
-This is a quick and easy setup for building static web sites that run on the Django template language managed with Cactus. The setup uses Bootstrap 3 with Sass.
+UI for exting Gene Observer insif of the GeneArt tool.
 
 ## Using
 
-Clone or fork the setup to your local machine, then download and install Cactus, create a new project inside of Catus and point to the directory that has the setup files.
+This ui uses a plugin called jquery-treegrid @ maxazan/jquery-treegrid
