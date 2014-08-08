@@ -1,0 +1,107 @@
+@import "custom/gene_observer";
+body {
+  font-size: 13px;
+}
+.danger {
+  color: red; }
+
+.success {
+  color: green; }
+
+.info {
+  color: #428bca;
+  font-size: 16px;
+}
+.warning {
+  color: #f79005;
+  margin-right: 5px;
+}
+
+.treegrid-indent {
+  width: 16px;
+  height: 10px;
+  display: inline-block;
+  position: relative; }
+
+.treegrid-expander {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer; 
+  font-size: 25px;
+  color: #fdbd38;
+  margin-right: 10px;
+}
+.tree tr td {
+  border-top: 1px solid #ffffff;
+ 
+}
+.open span.treegrid-expander {
+display: none;
+background-color: #eaeaea;
+}
+.nest-th {
+  background-color: #e8e8e8;
+  color: #777;
+}
+
+table.tree.table.table-hover {
+margin-bottom: 0px;
+}
+
+td.open {
+  padding: 0px;
+  background-color: #eaf1f7;
+
+}
+
+.treegrid-1 td {
+  width: 20%;
+}
+.panel-heading {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #333;
+  background-color: #f8f8f8;
+  padding-left: 10px;
+  background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e8e8e8));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e8e8e8);
+  background-image: -o-linear-gradient(top, #ffffff, #e8e8e8);
+  background-image: linear-gradient(to bottom, #ffffff, #e8e8e8);
+  background-repeat: repeat-x;
+  vertical-align: bottom;
+}
+
+.modal-dialog {
+width: 910px;
+margin: 30px auto;
+}
+
+
+.footnote {
+  margin-top: 20px;
+}
+.construct-info {
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+
+.modal-backdrop {
+  background-color: white;
+}
+
+.modal-backdrop.in {
+opacity: 0.9;
+}
+table.tree.table.table-hover {
+border: 1px;
+border-color: #eaeaea;
+border-style: solid;
+}
+.panel-default {
+border-color: #eaf1f7;
+}
+
+

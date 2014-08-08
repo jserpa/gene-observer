@@ -1,0 +1,6 @@
+{
+    "aws-access-key": "AKIAJZTBXC3JV7IKN5OA",
+    "aws-bucket-name": "thermo.sandbox",
+    "aws-bucket-website": "thermo.sandbox.s3-website-us-west-2.amazonaws.com",
+    "port": 8463
+}

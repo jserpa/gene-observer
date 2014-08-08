@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="container">
+        
+          <div class="row">
+            <div class="span12">
+             <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">
+              
+                <div class="row">
+                  <div class="col-xs-6">Product Detail</div>
+                  <div class="col-xs-6">
+                    <div class="input-group">
+                      <input class="form-control" type="email" placeholder="Enter your search term">
+                      <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span> Search</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>   
+              <table class="tree table table-hover">
+                <thead>
+                  <tr>
+                    <th>Project name</th>
+                    <th>Project ID</th>
+                    <th>Ordering Date</th>
+                    <th>Items on track</th>
+                    <th class="text-center">Schedule</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="treegrid-1">
+                    <td>Iggs1-alpha</td>
+                    <td><a href="#">2014AAL64C</a></td>
+                    <td>20-Jan-2014</td>
+                    <td>6 (7)</td>
+                    <td class="text-center"><a href="" ><i class="fa fa-circle fa-1x danger"></i></td>
+                  </tr>
+                  <tr class="treegrid-2 treegrid-parent-1">
+                    <td colspan="5" class="open">
+                         <table class="tree table table-hover">
+                          <thead class="nest-th">
+                            <tr>
+                              <th>Name</th>
+                              <th>Service</th>
+                              <th>Construct ID</th>
+                              <th>Dependent on</th>
+                              <th>Finalization</th>
+                              <th>Estimated Finalization</th>
+                              <th>Production status</th>
+                              <th class="text-center">Construct Schedule</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                            <td>Q168-cFOLR1</td>
+                            <td>GS</td>
+                            <td>14AAGT5C</td>
+                            <td></td>
+                            <td>11-Mar-2014</td>
+                            <td></td>
+                            <td><a href="" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign info"></span></a> Fragment assembly</td>
+                            <td class="text-center"><i class="fa fa-circle fa-1x success"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Q168-cFOLR1</td>
+                            <td>GS</td>
+                            <td>14AAGT5C</td>
+                            <td>14AAGT5C</td>
+                            <td>11-Mar-2014</td>
+                            <td></td>
+                            <td><a href="" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign info"></span></a> Waiting for 14AAGT5C</td>
+                            <td class="text-center"><i class="fa fa-circle fa-1x success"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Q168-cFOLR1</td>
+                            <td>GS</td>
+                            <td>14AAGT5C</td>
+                            <td></td>
+                            <td>11-Mar-2014</td>
+                            <td><span class="glyphicon glyphicon-warning-sign warning"></span> 25-Mar-2014</td>
+                            <td><a href="" data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-info-sign info"></span></a> Fragment re-assembly</td>
+                            <td class="text-center"><i class="fa fa-circle fa-1x danger"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Q168-cFOLR1</td>
+                            <td>GS</td>
+                            <td>14AAGT5C</td>
+                            <td>14AAGT5C</td>
+                            <td>11-Mar-2014</td>
+                            <td><span class="glyphicon glyphicon-warning-sign warning"></span> 25-Mar-2014</td>
+                            <td> <a href="" data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-info-sign info"></span></a> Waiting for 14AAGT7C</td>
+                            <td class="text-center"><i class="fa fa-circle fa-1x danger"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Q168-cFOLR1</td>
+                            <td>GS</td>
+                            <td>14AAGT5C</td>
+                            <td>14AAGT5C</td>
+                            <td>11-Mar-2014</td>
+                            <td><span class="glyphicon glyphicon-warning-sign warning"></span> 25-Mar-2014</td>
+                            <td><a href="">Shipped (22-Feb-2014)</a></td>
+                            <td class="text-center"><i class="fa fa-circle fa-1x success"></i></td>
+                          </tr>
+                        </body>
+                        </table> 
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table class="tree table table-hover">
+                <tbody>
+                  <tr class="treegrid-1">
+                    <td>Iggs1-alpha</td>
+                    <td><a href="#">2014AAL64C</a></td>
+                    <td>20-Jan-2014</td>
+                    <td>6 (7)</td>
+                    <td class="text-center"><i class="fa fa-circle fa-1x success"></i></td>
+                  </tr>
+                  <tr class="treegrid-2 treegrid-parent-1">
+                    <td colspan="5" class="open">
+                         <table class="tree table table-hover">
+                          <thead class="nest-th">
+                            <tr>
+                              <th>Name</th>
+                              <th>Service</th>
+                              <th>Construct ID</th>
+                              <th>Dependent on</th>
+                              <th>Finalization</th>
+                              <th>Estimated Finalization</th>
+                              <th>Production status</th>
+                              <th class="text-center">Construct Schedule</th>
+                            </tr>
+                          </thead>
+                          <tbody class="nest-td">
+                          <tr>
+                            <td>Q168-cFOLR1</td>
+                            <td>GS</td>
+                            <td>14AAGT5C</td>
+                            <td>14AAGT5C</td>
+                            <td>11-Mar-2014</td>
+                            <td><span class="glyphicon glyphicon-warning-sign warning"></span> 25-Mar-2014</td>
+                            <td><a href="">Shipped (22-Feb-2014)</a></td>
+                            <td class="text-center"><i class="fa fa-circle fa-1x success"></i></td>
+                          </tr>
+                        </body>
+                        </table> 
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Construct information</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row construct-info">
+          Date: 17-Feb-2014<br />
+          Construct name: Q168-cFOLR2<br />
+          Construct ID: 14AAGT7C<br />
+        </div>
+
+        <img src="{% static 'images/nav-workflow.jpg' %}"></img>
+          <div class="row footnote">
+            <div class="col-md-2">Oligo synthesis: 20-Jan-2014</div>
+            <div class="col-md-4">
+            Fragment assembly: 30-Jan-2014<br />
+            Fagment re-assembly: 15-Feb2014
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+
+
+    
+
+    
+
+{% endblock content%}
